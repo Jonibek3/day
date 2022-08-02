@@ -84,8 +84,7 @@ function Products() {
       {arr.map((item, index) => (
         <Box
           key={index}
-          mt={{ xs: "50px" }}
-          mb={{ xs: "50px" }}
+          mb="15px"
           width={{
             xs: "300px",
             sm: "250px",
