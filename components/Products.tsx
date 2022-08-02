@@ -1,12 +1,6 @@
 import React from "react";
-import { Box, Grid, TextField } from "@mui/material";
+import { Box } from "@mui/material";
 import Image from "next/image";
-import kr from "/public/img/korichveni past.jpeg";
-import zp from "/public/img/zangoripast.jpeg";
-import krr from "/public/img/korichvine.jpeg";
-import seriy from "/public/img/seriy.jpeg";
-import pink from "/public/img/pink.jpeg";
-import siyo from "/public/img/siyo.jpeg";
 
 function Products() {
   const arr = [
@@ -35,13 +29,13 @@ function Products() {
       deletPrice: "2,500원",
     },
     {
-      Image: "/img/korichveni past.jpeg",
+      Image: "/img/korichvine.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: "/img/korichveni past.jpeg",
+      Image: "/img/zangoripast.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
