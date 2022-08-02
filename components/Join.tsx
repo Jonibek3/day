@@ -13,7 +13,9 @@ function Join() {
         lineHeight="150px"
       >
         <h2 className="h2Join">지금, 데이데이와 함께 하세요.</h2>
-        <Button className="btn">Join</Button>
+        <Button className="btn" variant="outlined">
+          Join
+        </Button>
         <p className="pjoin">
           신규 회원을 위한 할인혜택, 구매 금액별 적립금과 쿠폰, 다양한 이벤트 등
           차별화된 혜택을 만나세요.
