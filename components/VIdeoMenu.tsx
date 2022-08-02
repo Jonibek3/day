@@ -27,6 +27,7 @@ function VideoMenu() {
           src={"img/usul.mp4"}
           autoPlay
           controls
+          loop
         ></video>
       </Box>
     </Box>

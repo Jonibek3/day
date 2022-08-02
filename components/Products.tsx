@@ -1,10 +1,6 @@
 import React from "react";
 import { Box, Grid, TextField } from "@mui/material";
 import Image from "next/image";
-import dOne from "/public/img/dOne.jpeg";
-import dTwo from "/public/img/dTwo.jpeg";
-import dThree from "/public/img/dThree.jpeg";
-import zangor from "/public/img/zangor.jpeg";
 import kr from "/public/img/korichveni past.jpeg";
 import zp from "/public/img/zangoripast.jpeg";
 import krr from "/public/img/korichvine.jpeg";
@@ -15,61 +11,61 @@ import siyo from "/public/img/siyo.jpeg";
 function Products() {
   const arr = [
     {
-      Image: dOne,
+      Image: "/img/dOne.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: dTwo,
+      Image: "/img/dTwo.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: dThree,
+      Image: "/img/dThree.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: zangor,
+      Image: "/img/zangor.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: krr,
+      Image: "/img/korichveni past.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: zp,
+      Image: "/img/korichveni past.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: kr,
+      Image: "/img/korichveni past.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: seriy,
+      Image: "/img/seriy.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: pink,
+      Image: "/img/pink.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
     },
     {
-      Image: siyo,
+      Image: "/img/siyo.jpeg",
       namee: " 데이데이 중형(7매입)",
       priceOne: "1,875원",
       deletPrice: "2,500원",
@@ -83,10 +79,10 @@ function Products() {
       flexWrap="wrap"
       justifyContent={{
         xs: "center",
-        sm: "start",
+        sm: "center",
         md: "center",
-        lg: "start",
-        xl: "start",
+        lg: "center",
+        xl: "center",
       }}
       height="auto"
     >
