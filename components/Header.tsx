@@ -65,7 +65,7 @@ function Header() {
         >
           <ul>
             <li>
-              <h1>
+              <h1 className="h1menu">
                 <Menu />
               </h1>
             </li>
